@@ -439,7 +439,7 @@ left: 20px;
   top: 240px;
   left: 20px;
 }
-
+/* comment */
 .menu_desc::after{
   content: "";
   position: absolute;
