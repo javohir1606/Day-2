@@ -140,7 +140,7 @@ body {
 
 .header_form {
   display: flex;
-  align-items: center;  
+  align-items: center;
   margin-left: -230px;
   position: relative;
 }
@@ -1275,18 +1275,22 @@ body {
   padding: 12px 20px 13px 41px;
   height: 46px;
 }
-.best_button:nth-child(2){
+
+.best_button:nth-child(2) {
   color: #253d4e;
 }
+
 .best_row {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 17px;
- 
+
 }
-.best_button{
+
+.best_button {
   position: relative;
 }
+
 .best_button::before {
   content: "";
   position: absolute;
@@ -1297,6 +1301,7 @@ body {
   background-repeat: no-repeat;
   background-image: url('../img/Icon.svg');
 }
+
 /* shop */
 .shop_item {
   border-radius: 10px;
