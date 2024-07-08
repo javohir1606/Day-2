@@ -1084,7 +1084,9 @@ body {
   background-size: cover;
   padding-top: 82px;
 }
-
+.footer_list1{
+  margin-left: -29px;
+}
 .footer_text {
   font-weight: 400;
   font-size: 14px;
@@ -1100,7 +1102,6 @@ body {
   line-height: 186%;
   letter-spacing: 0.03em;
   color: #777;
-  /* width: 350px; */
   margin-bottom: 18px;
 }
 
@@ -1164,7 +1165,6 @@ body {
 }
 
 .footer_box {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 14px;
   line-height: 120%;
@@ -1175,10 +1175,30 @@ body {
 
 }
 
+.footer_item1 {
+  margin-top: 29px;
+  display: flex;
+  gap: 10px;
+  width: 380px;
+}
+
+.footer_item2 {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.footer_item3 {
+  margin-top: 18px;
+  display: flex;
+  gap: 10px;
+}
+
 .footer_box span {
   color: #f53e32;
 }
 
+/* best */
 .best {
   background-repeat: no-repeat;
   background-image: url('../img/about.svg');
